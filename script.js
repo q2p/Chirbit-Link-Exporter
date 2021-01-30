@@ -1,6 +1,8 @@
 // ==UserScript==
 // @name        Chirbit.com Chirb.it Downloader
 // @description This is a simple script that shows you a direct link to audio file that you want to download.
+// @license     Creative Commons Zero v1.0 Universal
+// @supportURL  https://github.com/q2p/Soundgasm-Link-Exporter
 // @author      q2p
 // @namespace   q2p
 // @version     0.1
