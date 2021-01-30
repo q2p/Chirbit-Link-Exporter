@@ -5,7 +5,7 @@
 // @supportURL  https://github.com/q2p/Soundgasm-Link-Exporter
 // @author      q2p
 // @namespace   q2p
-// @version     0.1
+// @version     0.2
 // @include     http://chirb.it/*
 // @include     https://chirb.it/*
 // @include     http://chirbit.com/*
