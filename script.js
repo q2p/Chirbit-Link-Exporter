@@ -5,7 +5,7 @@
 // @supportURL  https://github.com/q2p/Chirbit-Link-Exporter
 // @author      q2p
 // @namespace   q2p
-// @version     0.2
+// @version     0.3
 // @include     http://chirb.it/*
 // @include     https://chirb.it/*
 // @include     http://chirbit.com/*
