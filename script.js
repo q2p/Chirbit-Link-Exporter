@@ -19,7 +19,7 @@
 (function() {
 	'use strict';
 	function make_link(name, title, fd) {
-		let file = "https://" + atob(fd.split("").reverse().join("")).replace("http://","").replace("https://","");
+		const file = "https://" + atob(fd.split("").reverse().join("")).replace("http://","").replace("https://","");
 		const link_container = document.createElement("div");
 		const link = document.createElement("a");
 		link.href = file;
