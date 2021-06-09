@@ -5,7 +5,7 @@
 // @supportURL  https://github.com/q2p/Chirbit-Link-Exporter
 // @author      q2p
 // @namespace   q2p
-// @version     0.3
+// @version     0.4
 // @include     http://chirb.it/*
 // @include     https://chirb.it/*
 // @include     http://chirbit.com/*
@@ -19,7 +19,7 @@
 (function() {
 	'use strict';
 	function make_link(name, title, fd) {
-		const file = atob(fd.split('').reverse().join(''));
+		let file = "https://" + atob(fd.split("").reverse().join("")).replace("http://","").replace("https://","");
 		const link_container = document.createElement("div");
 		const link = document.createElement("a");
 		link.href = file;
